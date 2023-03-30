@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3a2d4bd-2231-45e0-bc4b-944413d78e75" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Donload/Maven/apache-maven-3.8.5" />
+        <option name="userSettingsFile" value="D:\Donload\Maven\settings-java17.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MrFGiLMI2i650aYRzTSgvNNDXV" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_boot/src/main/java/com/wang" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31494254" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\01-studay\java_base\base_study\04_boot\src\main\java\com\wang" />
+      <recent name="D:\Code\01-studay\java_base\base_study\04_boot\src\main\java\com\wang\annotation" />
+      <recent name="D:\Code\01-studay\java_base\base_study\04_boot\src\main\java\com\wang\controller\file" />
+      <recent name="D:\Code\01-studay\java_base\base_study\04_boot\src\main\resources" />
+      <recent name="D:\Code\01-studay\java_base\base_study\01_basis\src\com\wang" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wang.aop" />
+      <recent name="com.wang.controller.image" />
+      <recent name="com.wang.config" />
+      <recent name="com.wang.controller" />
+      <recent name="com.wang.compare" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestAbstract">
+    <configuration name="CreateExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.test.poi.CreateExcel" />
+      <module name="04_boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.test.poi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSonStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.test.滑动窗口.LongestSonStr" />
+      <module name="03_mysuanfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.test.滑动窗口.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.test.链表.ReverseKGroup" />
+      <module name="03_mysuanfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.test.链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.test.数组.Test1" />
+      <module name="03_mysuanfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.test.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAbstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.oop.TestAbstract" />
+      <module name="01_basis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestAbstract" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.ReverseKGroup" />
+        <item itemvalue="Application.LongestSonStr" />
+        <item itemvalue="Application.CreateExcel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3a2d4bd-2231-45e0-bc4b-944413d78e75" name="Changes" comment="" />
+      <created>1678517704096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678517704096</updated>
+      <workItem from="1678517705446" duration="12430000" />
+      <workItem from="1678603452894" duration="9638000" />
+      <workItem from="1678708995367" duration="617000" />
+      <workItem from="1678768067202" duration="3450000" />
+      <workItem from="1678853498042" duration="9816000" />
+      <workItem from="1678883891213" duration="4105000" />
+      <workItem from="1678941814713" duration="3605000" />
+      <workItem from="1679129191013" duration="2459000" />
+      <workItem from="1679582024923" duration="71000" />
+      <workItem from="1679731394646" duration="8105000" />
+      <workItem from="1680097272231" duration="3125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
