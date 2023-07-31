@@ -8,6 +8,8 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
@@ -38,7 +40,7 @@ public class DownloadController {
      * @param response
      * @功能描述 下载文件:
      */
-    @RequestMapping("/download")
+    @GetMapping("/download")
     public void download(String fileName, HttpServletResponse response) {
         try {
             // path是指想要下载的文件的路径
@@ -86,7 +88,7 @@ public class DownloadController {
      * @param response
      * @功能描述 下载文件:将输入流中的数据循环写入到响应输出流中，而不是一次性读取到内存
      */
-    @RequestMapping("/downloadLocal")
+    @GetMapping("/downloadLocal")
     public void downloadLocal(String path, HttpServletResponse response) throws IOException {
         // 读到流中
         InputStream inputStream = new FileInputStream(path);// 文件的存放路径
@@ -110,7 +112,7 @@ public class DownloadController {
      * @param netAddress 文件所在网络地址
      * @功能描述 网络文件下载到服务器本地
      */
-    @RequestMapping("/netDownloadLocal")
+    @GetMapping("/netDownloadLocal")
     public void downloadNet(String netAddress, String path) throws IOException {
         URL url = new URL(netAddress);
         URLConnection conn = url.openConnection();
@@ -135,7 +137,7 @@ public class DownloadController {
      * @param response
      * @功能描述 网络文件获取到服务器后，经服务器处理后响应给前端
      */
-    @RequestMapping("/netDownLoadNet")
+    @GetMapping("/netDownLoadNet")
     public void netDownLoadNet(String netAddress, String filename, boolean isOnLine, HttpServletResponse response) throws Exception {
 
         URL url = new URL(netAddress);
@@ -167,6 +169,7 @@ public class DownloadController {
      * @param path
      * @return
      */
+    @GetMapping("createResponseEntity")
     public static ResponseEntity<Object> createResponseEntity(String path) {
         //1,构造文件对象
         File file=new File("", path);
@@ -197,7 +200,7 @@ public class DownloadController {
     /**
      * 文件上传
      */
-    @RequestMapping("uploadFile")
+    @PostMapping("uploadFile")
     public Map<String,Object> uploadFile(MultipartFile mf) {
         //1,得到文件名
         String oldName = mf.getOriginalFilename();

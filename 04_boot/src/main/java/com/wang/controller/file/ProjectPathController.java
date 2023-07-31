@@ -17,7 +17,7 @@ import java.time.format.DateTimeFormatter;
  * @time 2021-12-13 22:53
  **/
 @RestController
-@RequestMapping("/download")
+@RequestMapping("/download2")
 @Slf4j
 public class ProjectPathController {
 
