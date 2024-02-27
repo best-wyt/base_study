@@ -26,4 +26,17 @@ public class TypeChangeTest {
 
     }
 
+    @Test
+    public void test2() {
+        char a = 'a';
+        int aa = a;
+        System.out.println(aa);
+        int b = '1';
+        System.out.println(b);
+        int c = Character.getNumericValue('1');
+        System.out.println(c);
+        int d = Character.getNumericValue('b');
+        System.out.println(d);
+    }
+
 }
