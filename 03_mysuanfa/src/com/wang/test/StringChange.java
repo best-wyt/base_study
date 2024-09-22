@@ -11,6 +11,8 @@ public class StringChange {
 
     public static void main(String[] args) {
 
+        StringBuilder s = new StringBuilder("" + 1);
+        int y = Integer.parseInt(s.reverse().toString());
         System.out.println(trans("This is a sample", 16));
 
     }

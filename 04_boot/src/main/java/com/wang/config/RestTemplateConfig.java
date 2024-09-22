@@ -19,6 +19,23 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class RestTemplateConfig {
 
+
+        /**
+    * @Author: wyt
+    * @Description: 支持https调用的restTemplate
+    * @DateTime: 2024/3/1 14:26
+    */
+    @Bean("httpsRestTemplate")
+    public RestTemplate httpsRestTemplate(){
+        com.fh.config.HttpsClientRequestFactory factory = new com.fh.config.HttpsClientRequestFactory();
+        //单位为ms (部分接口数据量大,读取改为60秒)
+        factory.setReadTimeout(60000);
+        //单位为ms
+        factory.setConnectTimeout(10000);
+        return new RestTemplate (factory);
+    }
+
+
     @Bean
     public RestTemplate restTemplate(@Qualifier("clientHttpRequestFactory") ClientHttpRequestFactory factory) {
         return new RestTemplate(factory);
